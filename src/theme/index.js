@@ -18,6 +18,12 @@ export default {
 				"type": "max-width",
 				"value": "1520"
 			}
+		],
+		"xs": [
+			{
+				"type": "max-width",
+				"value": "490"
+			}
 		]
 	},
 	"color": {

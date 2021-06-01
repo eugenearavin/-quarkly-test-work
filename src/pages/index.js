@@ -178,6 +178,7 @@ export default (() => {
 				sm-margin="0px 50px 0px 50px"
 				sm-justify-content="center"
 				md-margin="0px 150px 0px 150px"
+				xs-margin="0px 25px 0px 25px"
 			>
 				<Box display="flex" flex-direction="column" position="relative" sm-align-items="center">
 					<Text
@@ -188,6 +189,8 @@ export default (() => {
 						lg-font="normal 800 54px/1.2 &quot;Raleway&quot;, sans-serif"
 						lg-width="100%"
 						sm-text-align="center"
+						xs-font="normal 800 36px/1.2 &quot;Raleway&quot;, sans-serif"
+						xs-margin="16px 0px 0px 0px"
 					>
 						Веб дизайнер,{" "}
 						<br />
@@ -201,6 +204,7 @@ export default (() => {
 						z-index="1"
 						lg-font="normal 800 100px/0.6 &quot;Raleway&quot;, sans-serif"
 						sm-text-align="center"
+						xs-font="normal 800 70px/0.6 &quot;Raleway&quot;, sans-serif"
 					>
 						тебя!
 					</Text>
@@ -210,6 +214,7 @@ export default (() => {
 						margin="60px 0px 60px 0px"
 						lg-font="normal 500 18px/2 &quot;Raleway&quot;, sans-serif"
 						sm-text-align="center"
+						xs-font="normal 500 14px/2 &quot;Raleway&quot;, sans-serif"
 					>
 						Стань частью нашей дружной команды
 						<br />
@@ -259,6 +264,12 @@ export default (() => {
 						sm-left="auto"
 						sm-right="59px"
 						sm-top="188px"
+						xs-bottom="auto"
+						xs-left="27px"
+						xs-right="auto"
+						xs-top="119px"
+						xs-width="202.547px"
+						xs-height="49.7188px"
 					/>
 				</Box>
 				<Image
@@ -313,6 +324,12 @@ export default (() => {
 					sm-z-index="0"
 					sm-transform="rotate(-40deg)"
 					sm-display="block"
+					xs-bottom="93px"
+					xs-height="201.844px"
+					xs-left="auto"
+					xs-right="-202px"
+					xs-top="auto"
+					xs-width="400.969px"
 				/>
 			</Box>
 		</Section>
@@ -335,6 +352,7 @@ export default (() => {
 				lg-align-items="center"
 				lg-flex-direction="column-reverse"
 				md-padding="0px 50px 0px 50px"
+				xs-padding="0px 25px 0px 25px"
 			/>
 			<Box
 				display="flex"
@@ -347,6 +365,9 @@ export default (() => {
 				md-flex-direction="column"
 				md-align-items="center"
 				md-margin="50px 0px 0px 0px"
+				xs-margin="25px 0px 0px 0px"
+				xs-width="100%"
+				xs-max-width="100%"
 			>
 				<Box
 					width="289px"
@@ -362,6 +383,9 @@ export default (() => {
 					md-max-width="500px"
 					md-height="272px"
 					md-position="relative"
+					xs-height="230px"
+					xs-max-width="300px"
+					sm-width="400px"
 				>
 					<Box
 						width="65px"
@@ -382,9 +406,14 @@ export default (() => {
 						md-top="-50px"
 						md-margin="0px 0px 0px 0px"
 						sm-bottom="auto"
-						sm-left="120px"
+						sm-left="162px"
 						sm-right="auto"
 						sm-top="-51px"
+						xs-left="120px"
+						xs-width="60px"
+						xs-height="60px"
+						xs-border-radius="15px"
+						xs-top="-25px"
 					>
 						<Icon category="fa" icon={FaRegCalendarAlt} color="--buttonText" size="34px" />
 					</Box>
@@ -398,7 +427,13 @@ export default (() => {
 						md-padding="75px 0px 0px 0px"
 						sm-padding="75px 25px 0px 25px"
 					>
-						<Text font="--cardTitle" margin="0px 0px 0px 0px" color="--text" lg-font="normal 600 28px &quot;Lato&quot;, sans-serif">
+						<Text
+							font="--cardTitle"
+							margin="0px 0px 0px 0px"
+							color="--text"
+							lg-font="normal 600 28px &quot;Lato&quot;, sans-serif"
+							xs-font="normal 600 25px &quot;Lato&quot;, sans-serif"
+						>
 							15 лет
 						</Text>
 						<Text
@@ -415,8 +450,10 @@ export default (() => {
 							md-font="normal 600 18px/180% &quot;Raleway&quot;, sans-serif"
 							md-padding="10px 0px 0px 0px"
 							sm-font="normal 600 16px/180% &quot;Raleway&quot;, sans-serif"
-							sm-padding="10px 0px 0px 0px"
+							sm-padding="30px 0px 0px 0px"
 							sm-margin="px 0px px 0px"
+							xs-font="normal 600 14px/180% &quot;Raleway&quot;, sans-serif"
+							sm-width="300px"
 						>
 							На рынке SaaS-конструкторов сайтов в России, СНГ и мир
 						</Text>
@@ -437,6 +474,10 @@ export default (() => {
 					md-height="272px"
 					md-position="relative"
 					md-margin="120px 0px 0px 0px"
+					xs-height="230px"
+					xs-margin="70px 0px 0px 0px"
+					xs-max-width="300px"
+					sm-width="400px"
 				>
 					<Box
 						width="65px"
@@ -454,7 +495,12 @@ export default (() => {
 						md-top="-53px"
 						md-margin="0px 0px 0px 0"
 						md-right="200px"
-						sm-left="120px"
+						sm-left="162px"
+						xs-left="120px"
+						xs-width="60px"
+						xs-height="60px"
+						xs-border-radius="15px"
+						xs-top="-25px"
 					>
 						<Icon category="ai" icon={AiFillApi} color="--buttonText" size="34px" />
 					</Box>
@@ -468,7 +514,14 @@ export default (() => {
 						md-padding="75px 0px 0px 0px"
 						sm-padding="75px 25px 0px 25px"
 					>
-						<Text font="--cardTitle" margin="0px 0px 10px 0px" color="--text" lg-font="normal 600 28px &quot;Lato&quot;, sans-serif">
+						<Text
+							font="--cardTitle"
+							margin="0px 0px 10px 0px"
+							color="--text"
+							lg-font="normal 600 28px &quot;Lato&quot;, sans-serif"
+							xs-font="normal 600 25px &quot;Lato&quot;, sans-serif"
+							sm-margin="0px 0px 0px 0px"
+						>
 							20 продуктов
 						</Text>
 						<Text
@@ -486,6 +539,9 @@ export default (() => {
 							md-max-width="400px"
 							md-padding="10px 0px 0px 0px"
 							sm-font="normal 600 16px/180% &quot;Raleway&quot;, sans-serif"
+							xs-font="normal 600 14px/180% &quot;Raleway&quot;, sans-serif"
+							sm-width="300px"
+							sm-padding="30px 0px 0px 0px"
 						>
 							И экосистема для тех, кто создает и развивает сайты профессионально и своими силами
 						</Text>
@@ -508,6 +564,10 @@ export default (() => {
 					md-margin="120px 0px 0px 0px"
 					sm-margin="120px 0px 0px 0px"
 					sm-padding="0px 10p 0px 10px"
+					xs-height="230px"
+					xs-margin="70px 0px 0px 0px"
+					xs-max-width="300px"
+					sm-width="400px"
 				>
 					<Box
 						width="65px"
@@ -525,7 +585,12 @@ export default (() => {
 						md-margin="0px 0px 0px 0"
 						md-top="-53px"
 						md-right="200px"
-						sm-left="120px"
+						sm-left="162px"
+						xs-left="120px"
+						xs-width="60px"
+						xs-height="60px"
+						xs-border-radius="15px"
+						xs-top="-25px"
 					>
 						<Icon category="md" icon={MdWeb} color="--buttonText" size="34px" />
 					</Box>
@@ -539,7 +604,13 @@ export default (() => {
 						md-padding="75px 0px 0px 0px"
 						sm-padding="75px 25px 0px 25px"
 					>
-						<Text font="--cardTitle" margin="0px 0px 0px 0px" color="--text" lg-font="normal 600 28px &quot;Lato&quot;, sans-serif">
+						<Text
+							font="--cardTitle"
+							margin="0px 0px 0px 0px"
+							color="--text"
+							lg-font="normal 600 28px &quot;Lato&quot;, sans-serif"
+							xs-font="normal 600 25px &quot;Lato&quot;, sans-serif"
+						>
 							3,5 млн
 						</Text>
 						<Text
@@ -558,6 +629,9 @@ export default (() => {
 							md-padding="20px 0px 0px 0px"
 							md-margin="0px 0px 16px 0px"
 							sm-font="normal 600 16px/180% &quot;Raleway&quot;, sans-serif"
+							xs-font="normal 600 14px/180% &quot;Raleway&quot;, sans-serif"
+							sm-width="300px"
+							sm-padding="30px 0px 0px 0px"
 						>
 							Сайтов работают сегодня на базе платформ uKit, uCoz, Narod, uShop
 						</Text>
@@ -580,6 +654,7 @@ export default (() => {
 					lg-font="normal 700 40px/1.2 &quot;Raleway&quot;, sans-serif"
 					md-font="normal 700 40px/1.2 &quot;Raleway&quot;, sans-serif"
 					sm-font="normal 700 35px/1.2 &quot;Raleway&quot;, sans-serif"
+					xs-font="normal 700 24px/1.2 &quot;Raleway&quot;, sans-serif"
 				>
 					Кто Мы Такие?
 				</Text>
@@ -605,6 +680,12 @@ export default (() => {
 						lg-font="normal 500 18px/2 &quot;Raleway&quot;, sans-serif"
 						md-font="normal 500 16px/2 &quot;Raleway&quot;, sans-serif"
 						md-max-width="500px"
+						xs-font="normal 500 12px/2 &quot;Raleway&quot;, sans-serif"
+						xs-margin="px 0px px 0px"
+						xs-padding="0px 35px 0px 35px"
+						xs-width="100%"
+						xs-max-width="100%"
+						xs-text-align="center"
 					>
 						Наша команда{" "}
 						<Strong>
@@ -637,6 +718,10 @@ export default (() => {
 			position="relative"
 			lg-padding="50px 0 50px 0"
 			md-padding="50px 0 50px 0"
+			xs-overflow-x="hidden"
+			xs-overflow-y="hidden"
+			md-overflow-x="hidden"
+			md-overflow-y="hidden"
 		>
 			<Override
 				slot="SectionContent"
@@ -644,6 +729,7 @@ export default (() => {
 				max-width="1520px"
 				lg-width="100%"
 				lg-margin="0px 50px 0px 50px"
+				xs-margin="0px 25px 0px 25px"
 			/>
 			<Image
 				width="438px"
@@ -664,9 +750,9 @@ export default (() => {
 				lg-height="124.06622222222222px"
 				md-bottom="auto"
 				md-height="80.89388947368421px"
-				md-left="-121px"
+				md-left="-119px"
 				md-right="auto"
-				md-top="-12px"
+				md-top="0px"
 				md-width="225.81673684210526px"
 				sm-bottom="auto"
 				sm-left="-60px"
@@ -674,6 +760,12 @@ export default (() => {
 				sm-top="-17px"
 				sm-height="40.88327368421052px"
 				sm-width="140.53947368421052px"
+				xs-bottom="auto"
+				xs-left="-24px"
+				xs-right="auto"
+				xs-top="-8px"
+				xs-height="36.875px"
+				xs-width="106.51599999999999px"
 			/>
 			<Box display="flex" flex-direction="column" justify-content="center" align-items="center">
 				<Text
@@ -682,6 +774,7 @@ export default (() => {
 					color="--text"
 					md-font="normal 700 40px/1.2 &quot;Raleway&quot;, sans-serif"
 					sm-font="normal 700 35px/1.2 &quot;Raleway&quot;, sans-serif"
+					xs-font="normal 700 22px/1.2 &quot;Raleway&quot;, sans-serif"
 				>
 					Ты Нам Подойдешь Если
 				</Text>
@@ -708,6 +801,10 @@ export default (() => {
 						md-max-width="none"
 						md-width="446px"
 						md-height="355px"
+						xs-width="100%"
+						xs-height="265px"
+						xs-max-width="300px"
+						sm-height="260px"
 					>
 						<Box
 							width="70px"
@@ -733,6 +830,7 @@ export default (() => {
 							md-left={0}
 							md-bottom="auto"
 							md-right="auto"
+							xs-left="84px"
 						>
 							<Icon category="fi" icon={FiFigma} color="--buttonText" size="34px" />
 						</Box>
@@ -753,6 +851,7 @@ export default (() => {
 								color="#F99B83"
 								size="20px"
 								lg-margin="5px 0px 0px 0px"
+								xs-margin="1px 0px 0px 0px"
 							/>
 							<Text
 								font="--base"
@@ -764,6 +863,8 @@ export default (() => {
 								md-max-width="300p"
 								md-width="300p"
 								md-font="normal 600 17px/1.5 &quot;Raleway&quot;, sans-serif"
+								xs-font="normal 600 14px/1.5 &quot;Raleway&quot;, sans-serif"
+								xs-padding="0px 30px 0px 0px"
 							>
 								Уверенно работаешь в{" "}
 								<Span
@@ -788,6 +889,7 @@ export default (() => {
 								color="#F99B83"
 								size="20px"
 								lg-margin="5px 0px 0px 0px"
+								xs-margin="1px 0px 0px 0px"
 							/>
 							<Text
 								font="--base"
@@ -799,6 +901,8 @@ export default (() => {
 								lg-width="100%"
 								md-width="300px"
 								md-font="normal 600 17px/1.5 &quot;Raleway&quot;, sans-serif"
+								xs-font="normal 600 14px/1.5 &quot;Raleway&quot;, sans-serif"
+								xs-padding="0px 30px 0px 0px"
 							>
 								Делаешь привлекательный, выразительный и современный{" "}
 								<br />
@@ -819,6 +923,10 @@ export default (() => {
 						md-width="446px"
 						md-height="355px"
 						md-max-width="none"
+						xs-width="100%"
+						xs-max-width="300px"
+						xs-height="325px"
+						sm-height="300px"
 					>
 						<Box
 							width="70px"
@@ -840,6 +948,7 @@ export default (() => {
 							lg-height="100px"
 							md-height="70px"
 							md-width="70px"
+							xs-left="84px"
 						>
 							<Icon category="fi" icon={FiAlignLeft} color="--buttonText" size="34px" />
 						</Box>
@@ -857,6 +966,7 @@ export default (() => {
 								color="#F99B83"
 								size="20px"
 								lg-margin="5px 0px 0px 0px"
+								xs-margin="1px 0px 0px 0px"
 							/>
 							<Text
 								font="--base"
@@ -868,6 +978,8 @@ export default (() => {
 								lg-max-width="700px"
 								md-width="300px"
 								md-font="normal 600 17px/1.5 &quot;Raleway&quot;, sans-serif"
+								xs-font="normal 600 14px/1.5 &quot;Raleway&quot;, sans-serif"
+								xs-padding="0px 30px 0px 0px"
 							>
 								Базовые навыки в копирайтинге
 							</Text>
@@ -879,6 +991,7 @@ export default (() => {
 								color="#F99B83"
 								size="20px"
 								lg-margin="5px 0px 0px 0px"
+								xs-margin="1px 0px 0px 0px"
 							/>
 							<Text
 								font="--base"
@@ -890,6 +1003,8 @@ export default (() => {
 								lg-max-width="700px"
 								md-width="300px"
 								md-font="normal 600 17px/1.5 &quot;Raleway&quot;, sans-serif"
+								xs-font="normal 600 14px/1.5 &quot;Raleway&quot;, sans-serif"
+								xs-padding="0px 30px 0px 0px"
 							>
 								Грамотный русский язык
 							</Text>
@@ -901,6 +1016,7 @@ export default (() => {
 								color="#F99B83"
 								size="20px"
 								lg-margin="5px 0px 0px 0px"
+								xs-margin="1px 0px 0px 0px"
 							/>
 							<Text
 								font="--base"
@@ -912,6 +1028,8 @@ export default (() => {
 								lg-max-width="700px"
 								md-width="300px"
 								md-font="normal 600 17px/1.5 &quot;Raleway&quot;, sans-serif"
+								xs-font="normal 600 14px/1.5 &quot;Raleway&quot;, sans-serif"
+								xs-padding="0px 30px 0px 0px"
 							>
 								Ориентируешься в современных трендах веб-индустрии
 							</Text>
@@ -929,6 +1047,9 @@ export default (() => {
 						lg-margin="0px 0px 70px 0px"
 						md-width="446px"
 						md-height="355px"
+						xs-width="100%"
+						xs-max-width="300px"
+						xs-height="305px"
 					>
 						<Box
 							width="70px"
@@ -950,6 +1071,7 @@ export default (() => {
 							lg-height="100px"
 							md-height="70px"
 							md-width="70px"
+							xs-left="84px"
 						>
 							<Icon category="fi" icon={FiCode} color="--buttonText" size="34px" />
 						</Box>
@@ -967,6 +1089,7 @@ export default (() => {
 								color="#F99B83"
 								size="20px"
 								lg-margin="5px 0px 0px 0px"
+								xs-margin="1px 0px 0px 0px"
 							/>
 							<Text
 								font="--base"
@@ -978,6 +1101,8 @@ export default (() => {
 								lg-max-width="700px"
 								md-width="300px"
 								md-font="normal 600 17px/1.5 &quot;Raleway&quot;, sans-serif"
+								xs-font="normal 600 14px/1.5 &quot;Raleway&quot;, sans-serif"
+								xs-padding="0px 30px 0px 0px"
 							>
 								Базовые знания HTML, CSS, JavaSсript, React
 							</Text>
@@ -989,6 +1114,7 @@ export default (() => {
 								color="#F99B83"
 								size="20px"
 								lg-margin="5px 0px 0px 0px"
+								xs-margin="1px 0px 0px 0px"
 							/>
 							<Text
 								font="--base"
@@ -1000,6 +1126,8 @@ export default (() => {
 								lg-max-width="700px"
 								md-width="300px"
 								md-font="normal 600 17px/1.5 &quot;Raleway&quot;, sans-serif"
+								xs-font="normal 600 14px/1.5 &quot;Raleway&quot;, sans-serif"
+								xs-padding="0px 30px 0px 0px"
 							>
 								Опыт верстки сайтов
 							</Text>
@@ -1011,6 +1139,7 @@ export default (() => {
 								color="#F99B83"
 								size="20px"
 								lg-margin="5px 0px 0px 0px"
+								xs-margin="1px 0px 0px 0px"
 							/>
 							<Text
 								font="--base"
@@ -1022,6 +1151,8 @@ export default (() => {
 								lg-max-width="700px"
 								md-width="300px"
 								md-font="normal 600 17px/1.5 &quot;Raleway&quot;, sans-serif"
+								xs-font="normal 600 14px/1.5 &quot;Raleway&quot;, sans-serif"
+								xs-padding="0px 30px 0px 0px"
 							>
 								Опыт сборки сайтов на конструкторах
 							</Text>
@@ -1048,6 +1179,8 @@ export default (() => {
 				flex-direction="row"
 				justify-content="space-between"
 				lg-padding="0px 50px 0px 50px"
+				xs-padding="0px 0px 0px 0px"
+				xs-margin="0px 25px 0px 25px"
 			/>
 			<Box quarkly-title="order_left">
 				<Text
@@ -1056,6 +1189,8 @@ export default (() => {
 					quarkly-title="order_title"
 					md-font="normal 700 40px/1.2 &quot;Raleway&quot;, sans-serif"
 					sm-font="normal 700 35px/1.2 &quot;Raleway&quot;, sans-serif"
+					xs-text-align="center"
+					xs-font="normal 700 22px/1.2 &quot;Raleway&quot;, sans-serif"
 				>
 					Оставь заявку
 				</Text>
@@ -1065,10 +1200,13 @@ export default (() => {
 					width="480px"
 					margin="40px 0px 60px 0px"
 					md-font="normal 600 16px/1.5 &quot;Raleway&quot;, sans-serif"
+					xs-text-align="center"
+					xs-font="normal 600 12px/1.5 &quot;Raleway&quot;, sans-serif"
+					xs-width="100%"
 				>
 					Если ты уверен в своих способностях и готов к новому опыту в сфере дизайна
 				</Text>
-				<Box>
+				<Box xs-display="flex" xs-justify-content="center" xs-align-items="center">
 					<Components.QuarklycommunityKitFormspree
 						color="--text"
 						completeText="Спасибо за заявку, мы свяжемся с вами в ближайшее время!"
@@ -1078,6 +1216,8 @@ export default (() => {
 						flex-direction="column"
 						font="--headline3"
 						width="351px"
+						xs-align-items="center"
+						xs-justify-content="center"
 					>
 						<Input
 							border-width="0 0 3px 0"
@@ -1105,6 +1245,10 @@ export default (() => {
 							placeholder-border-color="#FD6400"
 							disabled-border-color="#FD6400"
 							invalid-border-color="#FD6400"
+							xs-width="250px"
+							xs-max-width="250xp"
+							xs-font="normal 600 14px/1.5 &quot;Raleway&quot;, sans-serif"
+							xs-border-width="0 0 2px 0"
 						/>
 						<Input
 							border-width="0 0 3px 0"
@@ -1134,6 +1278,9 @@ export default (() => {
 							invalid-border-color="#FD6400"
 							placeholder-border-color="#FD6400"
 							disabled-border-color="#FD6400"
+							xs-width="250px"
+							xs-border-width="0 0 2px 0"
+							xs-font="normal 600 14px/1.5 &quot;Raleway&quot;, sans-serif"
 						/>
 						<Input
 							defaultValue="Имя"
@@ -1162,6 +1309,9 @@ export default (() => {
 							placeholder-border-color="#FD6400"
 							invalid-border-color="#FD6400"
 							disabled-border-color="#FD6400"
+							xs-width="250px"
+							xs-border-width="0 0 2px 0"
+							xs-font="normal 600 14px/1.5 &quot;Raleway&quot;, sans-serif"
 						/>
 						<Button
 							width="307px"
@@ -1174,13 +1324,16 @@ export default (() => {
 							hover-background="#f07d5f"
 							hover-transition="--all"
 							transition="--all"
+							xs-width="100%"
+							xs-font="normal 500 20px/36px &quot;Raleway&quot;, sans-serif"
+							xs-height="55px"
 						>
 							Оставить заявку
 						</Button>
 					</Components.QuarklycommunityKitFormspree>
 				</Box>
 			</Box>
-			<Box quarkly-title="order_right" position="relative">
+			<Box quarkly-title="order_right" position="relative" xs-display="none">
 				<Image
 					width="730px"
 					height="auto"
@@ -1225,6 +1378,7 @@ export default (() => {
 					sm-left="auto"
 					sm-right="-618px"
 					sm-top="auto"
+					xs-display="none"
 				/>
 			</Box>
 		</Section>
